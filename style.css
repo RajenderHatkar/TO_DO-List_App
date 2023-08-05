@@ -1,0 +1,122 @@
+body {
+    font-family:sans-serif;
+    font-weight: 600;
+    margin: 20px;
+    padding: 0;
+    background-color: aliceblue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    background-color: rgb(161, 202, 210);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  #fa-solid{
+    position: relative;
+    right: 05%;
+
+  }
+  
+  #taskInput {
+    
+    width: 65%;
+    padding: 8px;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 20px;
+    border-style:hidden
+  }
+  .sub_btn{
+    position: relative;
+    right: -1%;
+    background-color: rgb(93, 127, 127);
+    border-radius: 20px;
+    
+  }
+  .sub_btn:hover{
+    background-color: aqua;
+
+  }
+
+   button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-right: 10px;
+    
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 8px 0;
+    height: 40px;
+    border-radius: 15px;
+  }
+  
+  input[type="checkbox"] {
+    margin: 10px 5px 10px 20px ;
+    padding: 10px;
+  }
+  .task-text{
+    font-style: italic;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px;
+  }
+  span {
+    flex-grow: 1;
+    margin-right: 10px;
+    
+  }
+  .delete-btn {
+    position: relative;
+    left: 1.5%;
+    height: 40px;
+    display: none;
+    border-radius: 20px;
+
+  }
+  
+  li:hover .delete-btn {
+    display: inline;
+    background-color: aliceblue;
+  }
+  
+  
+  button {
+    background-color: aliceblue;
+    color: hwb(0 3% 97%);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  button:hover {
+    background-color: #6fe480;
+    
+  }
+  
+  div {
+    margin-top: 10px;
+  }
+  
+  #totalTasks,
+  #completedTasks {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
