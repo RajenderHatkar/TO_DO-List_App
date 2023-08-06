@@ -20,7 +20,7 @@ body {
   }
   #fa-solid{
     position: relative;
-    right: 05%;
+    right: 07%;
 
   }
   
@@ -35,7 +35,7 @@ body {
   }
   .sub_btn{
     position: relative;
-    right: -1%;
+    font-size: 15px;
     background-color: rgb(93, 127, 127);
     border-radius: 20px;
     
@@ -43,13 +43,6 @@ body {
   .sub_btn:hover{
     background-color: aqua;
 
-  }
-
-   button {
-    padding: 8px 16px;
-    font-size: 16px;
-    margin-right: 10px;
-    
   }
   
   ul {
@@ -98,8 +91,10 @@ body {
   
   
   button {
-    background-color: aliceblue;
-    color: hwb(0 3% 97%);
+    padding: 8px 16px;
+    font-size: 10px;
+    margin-right: 10px;
+    background-color:transparent;
     border: none;
     cursor: pointer;
     border-radius: 15px;
@@ -113,9 +108,8 @@ body {
   div {
     margin-top: 10px;
   }
-  
-  #totalTasks,
-  #completedTasks {
+
+  #totalTasks {
     font-weight: bold;
     margin-right: 5px;
   }
